@@ -62,7 +62,7 @@ jobs:
           override: true
 
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Cache Rust toolchain and build artifacts
         uses: Swatinem/rust-cache@v2
